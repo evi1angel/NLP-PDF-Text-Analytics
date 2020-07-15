@@ -1,9 +1,7 @@
---------------------------------------------------Code Start---------------------------------------------------------
 # -*- coding: utf-8 -*-
 """
 Created on Mon Mar 12 23:13:53 2018
 
-@author: Jasmi
 Description: NLP code for Bis Data
 Here is the data:
   - https://www.bis.org/list/research/index.htm
@@ -55,6 +53,3 @@ for file in os.listdir(directory):
     search_for = 'Word'
     result = searchInPDF(pdf_filename,search_for)
     print(result)
-
---------------------------------------------------Code End---------------------------------------------------------
-
